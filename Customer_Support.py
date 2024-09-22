@@ -2,13 +2,13 @@ import streamlit as st
 import datetime
 import os
 import asyncio  # Import asyncio
-import nest_asyncio  # Import nest_asyncio
+#import nest_asyncio  # Import nest_asyncio
 from langchain.chains import ConversationChain
 from langchain.memory import ConversationBufferMemory
 from langchain_google_genai import ChatGoogleGenerativeAI
 
 # Apply the asyncio fix
-nest_asyncio.apply()  # Allow nested asyncio loops
+# nest_asyncio.apply()  # Allow nested asyncio loops
 
 # Set page configuration
 st.set_page_config(
